@@ -32,7 +32,7 @@ app.use(bodyparser.json());`
 13.	Y nuestro Código va quedando así:
 
 `const express = require("express");
-const bodyparser = require("body-parser")
+const bodyparser = require("body-parser");
 const app = express();
 
 app.use(bodyparser.urlencoded({ extended: false}));
